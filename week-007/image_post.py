@@ -1,8 +1,8 @@
 import webbrowser
 
-var1 = open("file_hello_world.html", "w")
+var1 = open("image.html", "w")
 
-file_content = '''
+file_content1 = '''
 
 <html>
 <head></head>
@@ -22,8 +22,8 @@ img {
 
 '''
 
-var1.write(file_content)
+var1.write(file_content1)
 
 var1.close()
 
-webbrowser.open_new_tab("file_hello_world.html")
+webbrowser.open_new_tab("image.html")
